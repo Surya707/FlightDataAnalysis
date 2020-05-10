@@ -10,9 +10,9 @@ Travelling via airlines is one of the most important and efficient ways. However
 The aim of this project is to produce a visualisation of the airline performance data.
 
 These are the analyses made from the data:
-& Best Airlines to Avoid Delays
-& Cancellaion Counts and Reasons for them.
-& Recommendations in terms of the above aspects are made at the end.
+* Best Airlines to Avoid Delays
+* Cancellaion Counts and Reasons for them.
+* Recommendations in terms of the above aspects are made at the end.
 
 # Dataset
 http://stat-computing.org/dataexpo/2009/the-data.html
