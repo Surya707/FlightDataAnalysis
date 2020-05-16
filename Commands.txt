@@ -1,0 +1,39 @@
+Instructions:
+Install a virtual Box having Ubuntu V18.0 and Hadoop V3.0 using the following link -
+
+http://woir.in/steps-to-install-vm-for-workshop
+
+After successfull installation of Hadoop, run the command -
+
+jps
+
+If the following nodes are visible, then Hadoop has been sucessfully setup -
+
+NameNode
+DataNode
+ResourceManager
+NodeManager
+SecondaryNameNode
+Jps
+
+To Run Hadoop NameNode and DataNode -
+
+1. Format namenode and datanode using the command, in respective nodes 
+	" hdfs namenode -format"
+	" hdfs datanode -format"
+
+2. Move to Hadoop Folder and give the command " sbin/start-dfs.sh"
+
+3. Transfer input file using command -
+	" hdfs dfs -put input input1"
+
+4. To execute program in Hadoop use the command -
+	" hadoop jar project.jar project.Summarization input output1 output2 output3 "
+
+5. Check your output using the command -
+	" hadoop fs cat output1/part-r-0000" for each of the outputs.
+
+Visualisation of results is done using Tableau Public Tool - "https://public.tableau.com/en-us/s/"
+
+The visualisation has already been done in the HTML Document in GitHub. Download it and run it on the browser.
+The graphical representation of data is visible.
